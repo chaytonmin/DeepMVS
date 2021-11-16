@@ -61,7 +61,7 @@ Our code and dataset are released under the Apache 2.0 license.
 
 ## Acknowledgement
 
-This repository is heavily based on [Colmap](https://github.com/colmap/colmap), [OpenMVS](https://github.com/cdcseacave/openMVS), [CasMVSNet_pl](https://github.com/kwea123/CasMVSNet_pl) and [D2HC-RMVSNet](https://github.com/yhw-yhw/D2HC-RMVSNet) .
+This repository is based on [Colmap](https://github.com/colmap/colmap), [OpenMVS](https://github.com/cdcseacave/openMVS), [CasMVSNet_pl](https://github.com/kwea123/CasMVSNet_pl) and [D2HC-RMVSNet](https://github.com/yhw-yhw/D2HC-RMVSNet) .
 
 TODO:
 
