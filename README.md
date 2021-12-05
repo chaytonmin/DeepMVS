@@ -1,7 +1,5 @@
 # DeepMVS
 
-
-
 <p align="center">
 <img src="doc/flowchart.png" width="100%"/>Flowchart of DeepMVS
 </p>
@@ -10,7 +8,7 @@ Deep learning methods have shown promising results in the area of 3D reconstruct
 
 The whole project is the complete 3D reconstruction system. We use the [Colmap](https://github.com/colmap/colmap) for SfM, [CasMVSNet](https://github.com/kwea123/CasMVSNet_pl) and [D2HC-RMVSNet](https://github.com/yhw-yhw/D2HC-RMVSNet) for depth inferring and [OpenMVS](https://github.com/cdcseacave/openMVS) for dense point-cloud reconstruction, mesh reconstruction and mesh texturing. We write the codes to combine them together so it can do 3D reconstruction end to end.
 
-The online demo video is at [DeepMVS](https://www.zhihu.com/zvideo/1443954079655063552), which describes how to use the project and some 3D reconstruction results. 
+The online demo video is at https://www.zhihu.com/zvideo/1443954079655063552, which describes how to use the project and some 3D reconstruction results. 
 
 The highlights of our project are as follows:
 
