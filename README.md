@@ -37,10 +37,12 @@ Please refer to [CasMVSNet_pl](https://github.com/kwea123/CasMVSNet_pl) and [D2H
 We provide the docker image for environment:
 
 ```
-docker pull minchen12345/deepmvs
+docker pull xxx
 ```
 
 ## Usage
+
+Note: the existing code is just OpenMVS, we will add the complete codes soon.
 
 Run
 ```
@@ -64,6 +66,6 @@ Our code and dataset are released under the Apache 2.0 license.
 This repository is based on [Colmap](https://github.com/colmap/colmap), [OpenMVS](https://github.com/cdcseacave/openMVS), [CasMVSNet_pl](https://github.com/kwea123/CasMVSNet_pl) and [D2HC-RMVSNet](https://github.com/yhw-yhw/D2HC-RMVSNet) .
 
 TODO:
-* Add the complete codes
-* Add [SuperPoint](https://github.com/rpautrat/SuperPoint) for SfM
+* Add the complete codes for OpenMVS
+* Add [SuperPoint](https://github.com/rpautrat/SuperPoint) for SfM, like https://github.com/cvg/sfm-disambiguation-colmap
 * Rifine the mesh building with [MVSDF](https://arxiv.org/pdf/2108.09964.pdf)
