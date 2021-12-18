@@ -38,7 +38,9 @@ We provide the docker image for environment:
 docker pull minchen12345/deepmvs:latest
 ```
 
-## Usage Note: the existing code is just OpenMVS, we will add the complete codes soon.
+## Usage 
+
+## Note: the existing code is just OpenMVS, we will add the complete codes soon.
 
 Run
 ```
