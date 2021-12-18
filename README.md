@@ -35,7 +35,7 @@ Please refer to [CasMVSNet_pl](https://github.com/kwea123/CasMVSNet_pl) and [D2H
 We provide the docker image for environment:
 
 ```
-docker pull xxx
+docker pull minchen12345/deepmvs:latest
 ```
 
 ## Usage
