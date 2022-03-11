@@ -40,7 +40,7 @@ docker pull minchen12345/deepmvs:latest
 
 ## Usage 
 
-## Note: the existing code is just OpenMVS, we will add the complete codes soon.
+## Note: the existing code is just OpenMVS !!! 
 
 Run
 ```
