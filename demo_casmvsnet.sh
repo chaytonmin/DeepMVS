@@ -15,6 +15,11 @@ RESULT_PATH=$DATASET_PATH/result
 
 echo "${DATASET_PATH##*/} 1">> process.txt
 
+#. /home/sstc-pr/anaconda3/etc/profile.d/conda.sh
+#conda activate cascade_pl
+
+
+
 echo "---resize input images---"
 #image_dir:uploda img; image_resize_dir: resized img
 #--img_scale: for example depth 500*1000, if img_scale=2, final image 1000*2000
@@ -70,6 +75,8 @@ python3 cascade_pl_4.12_colmap/eval.py --root_dir ../test_data --depth_dir $RESU
 --point_dir $RESULT_PATH/point  --img_scale 2  --save_visual \
 --list_dir data/lists/testing_list.txt   --ckpt_path cascade_pl_4.12_colmap/ckpts/exp/_ckpt_epoch_49.ckpt
 
+python3 depth2dmap.py  --root_dir ../test_data --img_scale 2 --depth_dir $RESULT_PATH/depth \
+--list_dir data/lists/testing_list.txt
 
 depth_inference_time=`date +"%Y-%m-%d %H:%M:%S"`
 
