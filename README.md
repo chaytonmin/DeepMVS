@@ -40,7 +40,7 @@ docker pull minchen12345/deepmvs:latest
 
 ## Usage 
 
-## Note: the existing code is just OpenMVS !!! 
+## Note: We use the depth2dmap.py function to convert the output of MVSNets into the format of OpenMVS !!! 
 
 Run
 ```
