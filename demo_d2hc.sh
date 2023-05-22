@@ -4,7 +4,7 @@
 # command: ./demo.sh example test0
 
 # The DATASET_PATH must contain a folder "images" with all the input images.
-
+# The DATASET_PATH must contain a folder "images" with all the input images.
 starttime=$(date +%Y-%m-%d\ %H:%M:%S)
 DATASET_PATH0=$1
 DATANAME=$2
@@ -98,6 +98,10 @@ python3 D2HC-RMVSNet/eval.py \
         --testlist=data/lists/testing_list.txt \
         --loadckpt=D2HC-RMVSNet/checkpoints/model_000004.ckpt \
         --outdir=$RESULT_PATH
+
+echo "---depth2dmap---"
+python3 depth2dmap.py  --root_dir $DATASET_PATH0  --img_scale 2 --depth_dir $RESULT_PATH/$DATANAME \
+--list_dir data/lists/testing_list.txt
 
 depth_inference_time=`date +"%Y-%m-%d %H:%M:%S"`
 
